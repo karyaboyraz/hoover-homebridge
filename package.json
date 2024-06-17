@@ -1,9 +1,9 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "HooverPlatform",
+  "name": "homebridge-hoover",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Homebridge plugin for Hoover devices",
   "license": "Apache-2.0",
   "type": "module",
   "repository": {
@@ -17,7 +17,7 @@
     "node": "^18.17.0 || ^20.9.0",
     "homebridge": "^1.8.0"
   },
-  "main": "dist/index.js",
+  "main": "dist/index.mjs",
   "scripts": {
     "lint": "eslint src/**/*.ts --max-warnings=0",
     "watch": "npm run build && npm link && nodemon",
